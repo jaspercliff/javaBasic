@@ -17,6 +17,7 @@
         <module>Thread</module>
         <module>jvmLearn</module>
       <module>01java8</module>
+        <module>base</module>
     </modules>
 
     <properties>
