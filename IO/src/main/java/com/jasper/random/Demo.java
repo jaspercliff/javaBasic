@@ -9,7 +9,7 @@ import java.util.RandomAccess;
 public class Demo {
     public static void main(String[] args) throws IOException {
         RandomAccessFile rws = new RandomAccessFile(
-                new File("D:\\java\\basic8\\IO\\src\\main\\java\\com\\jasper\\random\\input.txt"), "rws");
+                new File("C:\\code\\javaBasic\\IO\\src\\main\\java\\com\\jasper\\random\\input.txt"), "rws");
         System.out.println("读取之前的指针位置："+rws.getFilePointer()+"读取的内容："+(char)rws.read()+"读取之后的指针位置"+rws.getFilePointer());
         rws.seek(6);
         System.out.println("读取之前的指针位置："+rws.getFilePointer()+"读取的内容："+(char)rws.read()+"读取之后的指针位置"+rws.getFilePointer());

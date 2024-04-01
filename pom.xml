@@ -7,17 +7,17 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>basic8</name>
+  <name>javaBasic</name>
   <url>http://maven.apache.org</url>
     <modules>
-        <module>Collection</module>
       <module>IO</module>
         <module>NIO</module>
         <module>socket</module>
         <module>Thread</module>
         <module>jvmLearn</module>
-      <module>01java8</module>
-        <module>base</module>
+      <module>java8</module>
+      <module>01basic</module>
+      <module>collection</module>
     </modules>
 
     <properties>
